@@ -1,0 +1,195 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background: white;
+}
+section#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+  background-color: #ffd2cf;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: white;
+  color: #ffd2cf;
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 10px;
+}
+section#timeline article div.inner span.date span.month {
+  font-size: 18px;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 10px;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: #005BBB;
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #005BBB;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #005BBB;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #005BBB;
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: #005BBB;
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: #005BBB;
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: #005BBB;
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: #005BBB;
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: black;
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: black;
+}
+section#timeline article:nth-child(6) div.inner h2 {
+  background: #006570;
+}
+section#timeline article:nth-child(6) div.inner h2:after {
+  background: #006570;
+}
+section#timeline article:nth-child(7) div.inner h2 {
+  background: #37BFFF;
+}
+section#timeline article:nth-child(7) div.inner h2:after {
+  background: #37BFFF;
+}
+section#timeline article:nth-child(8) div.inner h2 {
+  background: #37A7FF;
+}
+section#timeline article:nth-child(8) div.inner h2:after {
+  background: #37A7FF;
+}
+section#timeline article:nth-child(9) div.inner h2 {
+  background: #FBBAA8;
+}
+section#timeline article:nth-child(9) div.inner h2:after {
+  background: #FBBAA8;
+}
+#outer
+{
+    width:100%;
+    text-align: left;
+}
+.inner
+{
+    display: inline-block;
+}
+.menu_btn {
+  margin: 0 0;
+  border: none;
+  background-color: inherit;
+  padding: 1vh 2vw;
+  cursor: pointer;
+  font-size: min(3vw,3vh);
+  outline: none;
+}
+
+/* On mouse-over */
+.menu_btn:hover {
+  background: white;
+  color: #ffd2cf;
+}
+
+.main {color: white;}
+.row_header{
+  height: 30vh;
+  width: 100%;
+  background-size: auto 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-image:url(../img/header/1.png);
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+}

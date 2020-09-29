@@ -1,0 +1,1 @@
+document.write('<center><p style="color:#ffd2cf;">Copyright 2020, Yichen Wang.<br>All Rights Reserved</p></center>')
