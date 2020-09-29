@@ -1,2 +1,3 @@
 # personal_website
-My personal website https://yichenwa.com
+The source code of my personal website https://yichenwa.com
+
